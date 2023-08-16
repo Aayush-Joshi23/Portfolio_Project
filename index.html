@@ -7,13 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aayush Joshi</title>
     
-    <link href="https://fonts.googleapis.com/css?family=Caveat|Montserrat:400,600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/styles.css">  
 </head>
+
+
 <body>
 
 
-    <!-- Navigation menu  -->
+    <!-- Navigation menu 
     <nav>
         <ul>
             <li>Education</li>
@@ -22,35 +27,40 @@
             <li>Hackathons</li>
             <li>LinkedIn</li>
         </ul>
-    </nav>
+    </nav> -->
+
+    
     
     <!-- Heading and about me  -->
-    <header>
-        <h1>Aayush Joshi</h1>
-        <h2>Data Analyst + BI developer</h2>
-        <p> About me here </p>
+
+    <header >
+        <h1 class="name">Aayush Joshi</h1>
+        <h2 class="designation">Data Analyst + BI developer</h2>
+        <p class="aboutMe"> About me here </p>
     </header>
+
+
 
 
     <!-- Education qualification here  -->
 
-    <section>
-        <h2>Education</h2>
+    <section class="education">
+        <h2 class="secHead">Education</h2>
         
         <!-- College -->
-        <div>
-            <h3>Bachelors of Engineering</h3>
-            <h4>International Institute of Information Technology</h4>
-            <h5>8.31 CGPA</h5>
-            <p>More about college</p>
+        <div class="edSec">
+            <h3 class="head3">Bachelors of Engineering</h3>
+            <h4 class="head4">International Institute of Information Technology</h4>
+            <h5 class="head5">8.31 CGPA</h5>
+            <p class="edDesc">More about college</p>
         </div>
 
         <!-- 12th standard -->
-        <div>
-            <h3>12th and 10th standard</h3>
-            <h4>Narbheram Hansraj English School</h4>
-            <h5>12th - 92% and 10th - 91.25%</h5>
-            <p>More about school</p>
+        <div class="edSec">
+            <h3 class="head3">12th and 10th standard</h3>
+            <h4 class="head4">Narbheram Hansraj English School</h4>
+            <h5 class="head5">12th - 92% and 10th - 91.25%</h5>
+            <p class="edDesc">More about school</p>
         </div>
     </section>
 
@@ -60,126 +70,160 @@
     
     <!-- Certificates Section  -->
 
-    <section>
-        <h2>Certificates</h2>
+    <section class="certiSec">
+        <h2 class="secHead">Certificates</h2>
+        <p>Click the name of the certificates to see the certificates </p>
         <!-- Google Data Analytics Professional Certificate  -->
-        <div>
-            <h3>Google Data Analytics Professional Certificate</h3>
-            <img src="#" alt="Google Data Analytics Specialization Certificate">
+        <div class="gridItem">
+            <div>
+                <h3 class="head3">Google Data Analytics Professional Certificate</h3>
+                <img src="#" alt="Google Data Analytics Specialization Certificate">
+            </div>
+            
+            <!-- R Programming Certificate  -->
+            <div>
+                <h3 class="head3">R Programming Certificate</h3>
+                <img src="#" alt="R Programming Certificate">
+            </div>
+    
+            <!-- SQL Certificate  -->
+            <div>
+                <h3 class="head3">SQL Certificate</h3>
+                <img src="#" alt="SQL Certificate">
+            </div>
+        </div>
+
+        <div class="gridItem">
+            <!-- Tableau Certificate  -->
+            <div >
+                <h3 class="head3">Tableau Certificate</h3>
+                <div>
+                    <img src="#" alt="Tableau Certificate">
+                    <p>Decription</p>
+                </div>
+            </div>
+
+            <!-- Other Certificates  -->
+            <div >
+                <h3 class="head3">Other Certificates</h3>
+                <img src="#" alt="Other Certificates">
+            </div>
+            
         </div>
         
-        <!-- R Programming Certificate  -->
-        <div>
-            <h3>R Programming Certificate</h3>
-            <img src="#" alt="R Programming Certificate">
-        </div>
-
-        <!-- SQL Certificate  -->
-        <div>
-            <h3>SQL Certificate</h3>
-            <img src="#" alt="SQL Certificate">
-        </div>
-
-        <!-- Tableau Certificate  -->
-        <div>
-            <h3>Tableau Certificate</h3>
-            <img src="#" alt="Tableau Certificate">
-        </div>
-
-        <!-- Other Certificates  -->
-        <div>
-            <h3>Other Certificates</h3>
-            <img src="#" alt="Other Certificates">
-        </div>
-        <a href="#">Link to certificates page to display a grid of other certificates.</a>
+        <!-- <a href="#">Link to certificates page to display a grid of other certificates.</a> -->
 
     </section>
+
 
 
 
     <!-- Hackathons  -->
 
-    <section>
-        <h2>Hackathons</h2>
+    <section class="hackSec">
+        <h2 class="secHead">Hackathons</h2>
         
-        <!-- Swiss NexHack Challenge  -->
-        <div>
-            <h3>Swiss NexHack EdTech 2020</h3>
-            <h4>Runner Ups</h4>
-            <p>More about the competition and the project </p>
-        </div>
+        <div class="gridItem2">
+            <!-- Swiss NexHack Challenge  -->
+            <div>
+                <h3 class="head3">Swiss NexHack EdTech 2020</h3>
+                <h4 class="head4">Runner Ups</h4>
+                <p>More about the competition and the project </p>
+            </div>
+       
+            <!-- I2E Competition  -->
+            <div>
+                <h3 class="head3">I2E Competition 2020</h3>
+                <h4 class="head4">Reached the Finale Round </h4>
+                <p> More about I2E Competition</p>
+            </div>
 
-        <!-- I2E Competition  -->
-        <div>
-            <h3>I2E Competition 2020</h3>
-            <h4>Reached the Finale Round </h4>
-            <p> More about I2E Competition</p>
+       
+            <!-- Nasa SpaceApps Challenge 2020 -->
+            <div>
+                <h3 class="head3">NASA SpaceApps Challenge 2020</h3>
+                <h4 class="head4">Reached the Finals for the State Level Competition</h4>
+                <p>More about the Competition </p>
+            </div>
         </div>
-
-        <!-- Nasa SpaceApps Challenge 2020 -->
-        <div>
-            <h3>NASA SpaceApps Challenge 2020</h3>
-            <h4>Reached the Finals for the State Level Competition</h4>
-            <p>More about the Competition </p>
-        </div>
+        
 
     </section>
+
+
 
 
     <!-- Virtual Internship Programs  -->
 
-    <section>
-        <h2>Virtual Project Based Interships </h2>
+    <section class="internSec">
+        <h2 class="secHead">Virtual Project Based Interships </h2>
+        
+        <div class="gridItem2">
+            <!-- KPMG  -->
+            <div>
+                <h3 class="head3">Virtual Data Analyst Intern</h3>
+                <p>About the internship and what I did in the internship</p>
+            </div>
 
-        <!-- KPMG  -->
-        <div>
-            <h3>Virtual Data Analyst Intern</h3>
-            <p>About the internship and what I did in the internship</p>
+            <!-- Accenture  -->
+            <div>
+                <h3 class="head3">Title Given in the Accenture Certificate</h3>
+                <p>Much more about the internship and what I did in it</p>
+            </div>
+
+            <!-- PWC -->
+            <div>
+                <h3 class="head3">Title Given in PWC Certificate</h3>
+                <p>More about the intrship and the work done in the internship</p>
+            </div>
         </div>
-
-        <!-- Accenture  -->
-        <div>
-            <h3>Title Given in the Accenture Certificate</h3>
-            <p>Much more about the internship and what I did in it</p>
-        </div>
-
-        <!-- PWC -->
-        <div>
-            <h3>Title Given in PWC Certificate</h3>
-            <p>More about the intrship and the work done in the internship</p>
-        </div>
-
+        
     </section>
 
+
+
     <!-- Contains a list of skills  -->
-    <div>
-        <h2>Skills</h2>
-        <h3>Excel</h3>
-        <p>Something about it </p>
-        <h3>SQL</h3>
-        <p>Description about SQL</p>
-        <h3>Tableau</h3>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <h3>Power BI</h3>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <h3>R Programming</h3>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <h3>Python</h3>
-        <p>Something about it </p>
-        <h3>Java</h3>
-        <p>Description about SQL</p>
-        <h3>Google Sheets</h3>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <h3>Attention to Detail</h3>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <h3>Self Learner</h3>
-        <p>Lorem ipsum dolor sit amet.</p>
-        
-    </div>
+
+    <section class="skillSec">
+        <h2 class="secHead">Skills</h2>
+
+        <div class="gridItem2">
+            <div>
+                <h3 class="head3">Excel</h3>
+                <p>Something about it </p>
+                <h3 class="head3">SQL</h3>
+                <p>Description about SQL</p>
+                <h3 class="head3">Tableau</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div>
+                    <h3 class="head3">Power BI</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <h3 class="head3">R Programming</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <h3 class="head3">Python</h3>
+                    <p>Something about it </p>
+                    <h3 class="head3">Java</h3>
+                    <p>Description about SQL</p>
+            </div>
+            <div>
+                <h3 class="head3">Google Sheets</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <h3 class="head3">Attention to Detail</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <h3 class="head3">Self Learner</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>    
+    </section>
+
+
+
 
     <!-- Achievements  -->
 
-    <section>
+    <section class="achieveSec">
+        <h2 class="secHead">Achievements</h2>
         <ol>
             <li>TCQ NQT Results</li>
             <li>All hackathons not mentioned</li>
@@ -193,22 +237,23 @@
             <li>Lorem ipsum dolor sit amet.</li>
             <li>Lorem ipsum dolor sit amet.</li>
             <li>Lorem ipsum dolor sit amet.</li>
-            <li>Lorem ipsum dolor sit amet.</li>
-            <li>Lorem ipsum dolor sit amet.</li>
         </ol>
     </section>
 
 
-    <footer>
-        <ul>
-            <li>Linedin   <a href="#"></a> </li>
+
+    <!-- footer  -->
+
+    <footer class="footer">
+        <ul class="grid5">
+            <li>Linkedin   <a href="#"></a> </li>
             <li>Contact Number: +918340388217 </li>
-            <li>email id: aayush.joshi23.aj@gmail.com</li>
+            <li>aayush.joshi23.aj@gmail.com</li>
             <li>HackerRank: <a href="#"></a></li>
             <li>Leetcode: <a href="#"></a></li>
-            <li></li>
         </ul>
     </footer>
     
 </body>
+
 </html>
